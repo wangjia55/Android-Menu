@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidmenusample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.example.androidmenusample.MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SlidingMenuActivity"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            android:label="@string/slding_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MENU_SAMPLE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".RadiaActivity"
+            android:label="@string/radia">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MENU_SAMPLE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ArcMenuActivity"
+            android:label="@string/arc_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MENU_SAMPLE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SatelliteMenuActivity"
+            android:label="@string/satellite_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MENU_SAMPLE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".WheelActivity"
+            android:label="@string/wheel_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MENU_SAMPLE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MenuDrawerActivity"
+            android:label="@string/menu_drawer"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MENU_SAMPLE" />
+            </intent-filter>
+        </activity>
+	
+	    <activity
+	        android:name="com.jeremyfeinstein.slidingmenu.example.PropertiesActivity"
+	        android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.LeftAndRightActivity"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.AttachExample"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.anim.CustomScaleAnimation"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.anim.CustomZoomAnimation"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.anim.CustomRotateAnimation"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.anim.CustomSlideAnimation"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.SlidingTitleBar"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.SlidingContent"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.ViewPagerActivity"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.fragments.FragmentChangeActivity"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.fragments.ResponsiveUIActivity"
+            android:theme="@style/ExampleTheme"/>
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.fragments.BirdActivity"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" />
+        <activity android:name="com.crittercism.NotificationActivity"/>
+        
+        <activity android:name="com.touchmenotapps.radialdemo.AltRadialMenuActivity" android:label="Radial Menu V1"/>
+        <activity android:name="com.touchmenotapps.radialdemo.RadialMenuActivity" android:label="Radial Menu V2"/>
+        <activity android:name="com.touchmenotapps.radialdemo.RadialProgressActivity" android:label="Radial Progress"/>
+        <activity android:name="com.touchmenotapps.radialdemo.SemiCircularRadialMenuActivity" android:label="Semi Circular Radial Menu"/>
+        
+        <activity
+            android:name="net.simonvt.menudrawer.samples.WindowSample"
+            android:theme="@style/SampleTheme"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.LeftDrawerSample"
+            android:theme="@style/SampleTheme"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.ListActivitySample"
+            android:theme="@style/SampleTheme"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.ViewPagerSample"
+            android:theme="@style/SampleTheme"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.RightDrawerSample"
+            android:theme="@style/SampleTheme.RightDrawer"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.TopDrawerSample"
+            android:theme="@style/SampleTheme.TopDrawer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.simonvt.menudrawer.samples.SamplesActivity"/>
+        </activity>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.BottomDrawerSample"
+            android:theme="@style/SampleTheme.BottomDrawer"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.LayoutSample"
+            android:theme="@style/SampleTheme.TopDrawer"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.StaticDrawerSample"
+            android:theme="@style/SampleTheme"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.FragmentSample"
+            android:theme="@style/SampleTheme"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.ActionBarSherlockSample"
+            android:theme="@style/SampleTheme.Sherlock"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.LeftOverlaySample"
+            android:theme="@style/SampleTheme"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.TopOverlaySample"
+            android:theme="@style/SampleTheme.TopDrawer"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.RightOverlaySample"
+            android:theme="@style/SampleTheme"/>
+        <activity
+            android:name="net.simonvt.menudrawer.samples.BottomOverlaySample"
+            android:theme="@style/SampleTheme.BottomDrawer"/>
+    </application>
+
+</manifest>

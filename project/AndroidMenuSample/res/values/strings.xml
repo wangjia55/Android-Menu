@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">AndroidMenuSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="slding_menu">SlidingMenu</string>
+    <string name="radia">Radia</string>
+    <string name="arc_menu">ArcMenu</string>
+    <string name="satellite_menu">SatelliteMenu</string>
+    <string name="wheel_menu">WheelMenu</string>
+    <string name="menu_drawer">MenuDrawer</string>
+    <string name="properties">SlidingMenu Properties</string>
+    <string name="general">General</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="attach">Attach</string>
+    <string name="title_bar">Title Bar Options</string>
+    <string name="title_bar_slide">Sliding Title Bar</string>
+    <string name="title_bar_content">Sliding Content Only</string>
+    <string name="animations">Custom Animations</string>
+    <string name="anim_zoom">Zoom</string>
+    <string name="anim_scale">Scale</string>
+    <string name="anim_fold">Fold</string>
+    <string name="anim_slide">Slide Up</string>
+    <string name="changing_fragments">Changing Fragments</string>
+    <string name="responsive_ui">Responsive UI</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="left_and_right">Left and Right</string>
+    <string name="github">GitHub</string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+    <string name="what_is_this">What is this?</string>
+    <string name="responsive_explanation">This is an example of a UI that responds well to device type. On phones, the menu will be placed inside a SlidingMenu, while on tablets the menu will be exposed alongside the content because we have enough room to always show it.</string>
+    <string name="about">About</string>
+    <string name="licenses">Licenses</string>
+    <string name="contact">Contact</string>
+    <string name="about_msg">&amp;lt;b&amp;gt;SlidingMenu&amp;lt;/b&amp;gt; is an Open Source Android library 
+        that allows developers to easily create applications with sliding menus like those 
+        made popular in the Google+, YouTube, and Facebook applications. 
+        You can find it on GitHub by clicking the little octocat icon in the ActionBar. 
+        Feel free to use it all you want in your Android apps provided 
+        that you cite this project and include the license in your app.
+        &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+		SlidingMenu is currently used in some incredibly popular Android 
+		apps such as Zappos, Plume, VLC for Android, and The Verge. 
+		If you are using SlidingMenu in your app and would like to be 
+		listed here, please let me know via Twitter (@slidingmenu)!</string>
+    <string name="apache_license">&amp;lt;b&amp;gt;SlidingMenu &amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;
+        \u00A9 2012 Jeremy Feinstein&amp;lt;br&amp;gt;
+        SlidingMenu is licensed under the Apache License Version 2.0.
+        &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+        &amp;lt;b&amp;gt;ActionBarSherlock &amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;
+        \u00A9 2012 Jake Wharton&amp;lt;br&amp;gt;
+        ActionBarSherlock is licensed under the Apache License Version 2.0.
+        &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+		&amp;lt;b&amp;gt;The Apache License Version 2.0&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;
+		You may obtain a copy of the License at&amp;lt;br&amp;gt;
+		&amp;lt;center&amp;gt;&amp;lt;a href=\'http://www.apache.org/licenses/LICENSE-2.0\'&amp;gt;
+				"http://www.apache.org/licenses/LICENSE-2.0&amp;lt;/a&amp;gt;&amp;lt;/center&amp;gt;&amp;lt;br&amp;gt;
+		Unless required by applicable law or agreed to in writing, 
+		software distributed under the License is distributed on an 
+		\'AS IS\' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, 
+		either express or implied. See the License for the specific 
+		language governing permissions and limitations under the License.</string>
+    <string name="no_email">Sorry, I couldn\'t find any e-mail apps on your phone</string>
+    <string name="radial_demo">Radial Menu</string>
+    <string name="about">About</string>
+    <string name="main_menu">Home<item>Radial Menu V1</item>
+        <item>Radial Menu V2</item>
+        <item>Radial Progress</item>
+        <item>Semi Circular Radial Menu</item>
+    </string>
+    <string name="contact">Contact</string>
+    <string name="about_body">Radial Menu Demo Version 1 by Arindam Nath.</string>
+    <string name="contact_body">Contact Details Here!</string>
+    <string name="main_body">Long press any part of the screen to bring up radial menu.</string>
+    <string name="open_menu">Open Menu</string>
+    <string name="normal">Normal</string>
+    <string name="expandable">Expandable</string>
+    <string name="close">Close</string>
+    <string-array name="main_menu">
+        <item>Radial Menu V1</item>
+        <item>Radial Menu V2</item>
+        <item>Radial Progress</item>
+        <item>Semi Circular Radial Menu</item>
+    </string-array>
+    <string name="app_name">MenuDrawerSamples</string>
+    <string name="sample_content">Sample of dragging the content.\nThe menu consists of a ListView, for which the
+        active position is saved through configuration changes.\nAdditionally, if the menu is open, a back press will
+        close it.
+    </string>
+    <string name="sample_window">Sample of dragging the entire window.\nThe menu is a simple ScrollView, with a click
+        listener set on each item.\nThe drawer will animate slightly open, to make it more discoverable.\nAdditionally,
+        if the menu is open, a back press will close it.
+    </string>
+    <string name="sample_listactivity">Sample of how to use the drawer with ListActivity.\nWhen running on ICS or
+        greater, the ActionBar up button will blink until clicked by the user. This is done to make the menu more
+        discoverable.\nAdditionally, if the menu is open, a back press will close it.
+    </string>
+    <string name="sample_rightmenu">This sample shows how to position the menu to the right of the content.\nRun on
+        an API14+ device to see how it interacts with the overflow button.
+    </string>
+    <string name="sample_topmenu">This sample shows how to position the menu above the content.</string>
+    <string name="sample_bottommenu">This sample shows how to position the menu below the content.</string>
+    <string name="sample_layout">This sample shows how to use the drawer in a layout file.
+        \nThe top drawer is used in this sample.
+    </string>
+    <string name="sample_static">This sample shows how to attach a drawer that is always visible.</string>
+</resources>
